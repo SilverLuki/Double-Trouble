@@ -37,7 +37,7 @@ db.serialize(() => {
     )`);
     db.run(`INSERT INTO fake_flags (flag) VALUES 
         ('FLAG{not_here_keep_trying}'),
-        ('SECURINETS{fake_flag_lol}'),
+        ('SECURINETS{bech_nfadedkom_kima_fadetouni}'),
         ('CTF{you_wasted_time}')
     `);
     db.run(`CREATE TABLE logs (
